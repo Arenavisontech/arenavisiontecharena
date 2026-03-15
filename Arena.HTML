@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Arena Vision Tech</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:black;
+color:white;
+}
+
+header{
+background:linear-gradient(90deg,#ff0000,#00c3ff);
+padding:20px;
+text-align:center;
+font-size:28px;
+font-weight:bold;
+}
+
+.hero{
+height:500px;
+background:url("https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2") center/cover;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:60px;
+background:rgba(0,0,0,0.5);
+padding:20px;
+}
+
+.button{
+background:#ff0000;
+padding:15px 30px;
+margin:10px;
+text-decoration:none;
+color:white;
+font-size:20px;
+border-radius:10px;
+}
+
+.section{
+padding:60px;
+text-align:center;
+}
+
+.services{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#111;
+padding:30px;
+width:250px;
+border-radius:10px;
+box-shadow:0 0 20px #00c3ff;
+}
+
+footer{
+background:#111;
+padding:30px;
+text-align:center;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+Arena Vision Tech
+</header>
+
+<div class="hero">
+
+<h1>LED Екрани та технічне забезпечення подій</h1>
+
+<a class="button" href="tel:0998927897">Подзвонити</a>
+
+<a class="button" href="mailto:arenavisiontecharena@gmail.com">Написати Email</a>
+
+</div>
+
+<div class="section">
+
+<h2>Наші послуги</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Оренда LED екранів</h3>
+<p>Професійні світлодіодні екрани для концертів та заходів</p>
+</div>
+
+<div class="card">
+<h3>Оренда плазм</h3>
+<p>Телевізори та дисплеї для конференцій і презентацій</p>
+</div>
+
+<div class="card">
+<h3>Проектори</h3>
+<p>Проекційне обладнання для подій</p>
+</div>
+
+<div class="card">
+<h3>Друк банерів</h3>
+<p>Реклама та банери для спортивних подій</p>
+</div>
+
+<div class="card">
+<h3>Спортивний інвентар</h3>
+<p>Продаж обладнання для спортивних заходів</p>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<h3>Контакти</h3>
+
+📞 099 892 78 97  
+📧 arenavisiontecharena@gmail.com
+
+<p>© Arena Vision Tech</p>
+
+</footer>
+
+</body>
+</html>
